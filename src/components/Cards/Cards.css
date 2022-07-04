@@ -1,0 +1,139 @@
+.resturent_card {
+  border-top: 1px solid #e9e9eb;
+  padding-top: 20px;
+  display: flex;
+  max-width: 1200px;
+  margin-bottom: 85px;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.resturent_card::after {
+  content: "";
+  flex: auto;
+}
+
+.resturent_card .hidden {
+  padding: 20px 20px 10px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.hidden:hover {
+  border: 1px solid #e9e9eb;
+}
+
+.resturent_card .hidden:hover .quick {
+  visibility: visible;
+}
+
+.card .dishes {
+  color: #686b78;
+  margin-top: 4px;
+  max-width: 250px;
+
+}
+
+.card .img img {
+  width: 254px;
+  height: 160px;
+}
+
+.resturent_name {
+  margin-top: 12px;
+}
+
+.card .measure {
+  font-size: 13px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  max-width: 250px;
+  color: #535665;
+  margin-top: 18px;
+}
+
+.card .measure .rating {
+  background-color: #48c479;
+  border-radius: 2px;
+  color: #fff;
+  height: 20px;
+  width: 43px;
+  padding: 0 5px;
+  font-weight: 400;
+  padding-top: 3px;
+}
+
+.fa {
+  padding-right: 2.1px;
+}
+
+.fa-filter {
+
+  margin-left: 21px;
+  border-radius: 25px;
+  border: 1px solid #fc8019;
+  color: #fc8019;
+}
+
+.card .offer {
+  color: #8a584b;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid #e9e9eb;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e9e9eb;
+  display: flex;
+}
+
+.hidden .quick {
+  /* margin-top: 14px;
+  margin-top: 14px; */
+  color: #5d8ed5;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  visibility: hidden;
+
+
+  /* padding-top: 14px;
+    margin-top: 14px;
+    
+    left: 20px;
+    right: 20px;
+    bottom: 14px; */
+
+}
+
+.hidden .quick a {
+  text-decoration: none;
+  color: #5d8ed5;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+@media (min-width: 1024px) {
+  .resturent_card .hidden {
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .resturent_card .hidden {
+    margin: 0 auto;
+  }
+
+  /* .container{
+    width: 80%;
+  } */
+
+}
+@media (min-width: 320px) and (max-width:500px) {
+  .resturent_card .hidden {
+    margin: 0 15%;
+  }
+
+}

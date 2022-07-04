@@ -1,0 +1,131 @@
+.func{
+    color: #3d4152;
+    font-weight: 500;
+    height: 40px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 50px;
+    width: 538px;
+    transform: translate3d(0,72px,0);
+    transition: transform .2s ease-in-out;
+    pointer-events: auto;
+    left: 462px;
+}
+.fa-solid{
+    font-size: 16px;
+    font-weight: 700;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 40px;
+    width: 45px;
+    text-align: right;
+}
+.search-dish span input{
+    border: none;
+    /* -webkit-appearance: textfield; */
+    /* -webkit-rtl-ordering: logical; */
+    /* vertical-align: middle; */
+    /* width: 100%; */
+    /* height: 22px; */
+    /* line-height: 22px; */
+    font-weight: 600;
+    position: relative;
+    top: -1px;
+    caret-color: #fc8019;
+}
+.search-dish span{
+    vertical-align: middle;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+}
+.search-dish{
+    width: 254px;
+    display: table;
+    table-layout: fixed;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+    border: 1px solid rgba(0,0,0,.04);
+    height: 40px;
+    background-color: #fff;
+}
+.veg-only{
+    float:right;
+    display: table;
+    table-layout: fixed;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+    border: 1px solid rgba(0,0,0,.04);
+    height: 40px;
+    background-color: #fff;
+    margin-right: 35px;
+}
+.veg-only span{
+    vertical-align: -webkit-baseline-middle;
+}
+.veg-only span label{
+    padding-right: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: color .2s ease-in-out;
+    will-change: color;
+    padding-left: 15px;
+}
+.veg-only span input{
+    margin-left: 10px;
+}
+/* 
+.veg-only span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 40px;
+    vertical-align: top;
+    padding-top: 11px;
+    text-align: right;
+    width: 41px;
+}
+.veg-only span label{
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+}
+.veg-only span input{
+    display: none;
+    box-sizing: border-box;
+    padding: 0;
+} */
+.fav{
+    float: right;
+    cursor: pointer;
+    width: 122px;
+    display: table;
+    table-layout: fixed;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+    border: 1px solid rgba(0,0,0,.04);
+    height: 40px;
+    background-color: #fff;
+}
+.fa-heart{
+    font-size: 16px;
+    color: #3d4152;
+    font-weight: 700;
+    position: relative;
+    transition: color .3s ease;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 40px;
+    vertical-align: top;
+    padding-top: 11px;
+    text-align: right;
+    width: 37px;
+}
+.fav span{
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: color .2s ease-in-out;
+    will-change: color;
+}

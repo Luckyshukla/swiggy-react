@@ -1,0 +1,43 @@
+.cards_container {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .filter_nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+  }
+  
+  .filter-links {
+    list-style: none;
+    display: flex;
+  
+  }
+  
+  .filter-links .active {
+    text-underline-offset: 15px;
+    text-decoration: 2px underline;
+  }
+  
+  .Count {
+    color: #282c3f;
+    font-weight: 600;
+    font-size: 28px;
+  }
+  
+  .filter-links a {
+    white-space: nowrap;
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #686b78;
+    margin-left: 35px;
+    cursor: pointer;
+    text-decoration: none;
+  
+  }

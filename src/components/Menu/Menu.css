@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.restaurant-page{
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto; 
+    display: flex;
+    
+}
+/* .menu{
+    
+    width: 902px;
+    display: flex;
+} */
+.menu-varity{
+    text-align: right;
+    padding-top: 30px;
+    /* padding-right: 13px; */
+    margin-right: -17px;
+    padding-right: 17px;
+    position: fixed;
+    width: 250px;
+    
+}
+
+.menu-section{
+    /* width: 250px; */
+    align-self: flex-start;
+    /* height: calc(100vh - 150px); */
+    margin-top: 21px;
+    /* position: sticky;
+    top: 280px; */
+    
+    
+    
+}
+.varieties{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* max-height: calc(100vh - 197px); */
+}
+.varieties ul li{
+    list-style: none;
+    
+}
+.varieties ul li a:hover{
+    color: #fc8019;
+}
+.varieties ul li a{
+    text-decoration: none;
+    /* text-overflow: ellipsis; */
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    color: #282c3f;
+    padding-top: 5px;
+    font-weight: 400;
+    margin-right: -15px;
+    padding-right: 20px;
+}
+.menu-list-origin{
+    position: relative;
+    left: 16rem;
+}
+.Empty-cart{
+    background:transparent!important;
+    position: relative;
+    left: 16rem;
+}
+.position-cart{
+    position: sticky;
+    top: 280px;
+}
+.Empty-cart .heading{
+    white-space: nowrap;
+    color: #7e808c;
+    letter-spacing: -.3px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.Empty-cart img{
+    margin-top: 47px;
+    opacity: .5;
+    /* width: 100%; */
+    height: 212px;
+}
+.para{
+    color: #93959f;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 300;
+    max-width: 218px;
+}
+    
+/* .menu-section{
+    display: flex;
+    
+}
+.food_section{
+    display: flex;
+}
+.food_image{
+    position: relative;
+}
+.food_image img{
+    width: 118px;
+    height: 96px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.add-food{
+    position: absolute;
+    bottom: 15px;
+    width: 96px;
+    min-height: 36px;
+    line-height: 36px;
+    right: 10%;
+    color: #60b246;
+    cursor: pointer;
+}
+.add-food span{
+   top: 25%;
+}
+.varieties{
+
+}
+.varity-list{
+    list-style: none;
+} */

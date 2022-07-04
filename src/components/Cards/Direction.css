@@ -1,0 +1,17 @@
+.direction{
+    height: 30px;
+    font-size: 10px;
+    color: #93959f;
+    display: flex;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 1200px;
+    min-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.direction a{
+    color: #93959f;
+    text-decoration: none;
+}

@@ -1,0 +1,141 @@
+.hotel{
+    background-color: #171a29;
+    color: #fff;
+    height: 245px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.hotelcard{
+
+    max-width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.restaurant-img img{
+    width: 256px;
+    height: 165px;
+}
+.restaur{
+    padding-top: 3%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.restaurant-details{
+    width: 360px;
+    margin-left: -14%;
+}
+.restaurant-name{
+    max-width: 538px;
+    margin: 0;
+    font-weight: 300;
+    font-size: 32px;
+}
+.items{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: inherit;
+    opacity: .7;
+    font-size: 15px;
+    max-width: 538px;
+    margin-top: 8px;
+}
+.address{
+    color: inherit;
+    opacity: .7;
+    font-size: 15px;
+    margin-top: 12px;
+}
+.precise{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+.rating{
+    border-right: 1px solid gray;
+    padding-right: 10%;
+}
+.ratingcount{
+    /* color: inherit;
+    font-weight: 600;
+    font-size: 16px; */
+    color: inherit;
+    opacity: .7;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.rating span{
+    display: block;
+}
+.dileverytime{
+    color: inherit;
+    opacity: .7;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.delivery-time{
+    border-right: 1px solid gray;
+    padding-right: 10%;
+}
+.delivery-time span{
+    display: block;
+    
+} 
+.cost_for_two span{
+    display: block;
+}
+.costfor{
+    color: inherit;
+    opacity: .7;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.text{
+    text-align: center;
+}
+.offer-set{
+    width: 298px;
+}
+.offer-text2{
+    align-items: center;
+    margin-top: 16px;
+}
+.text-offer{
+    word-break: break-word;
+    word-wrap: break-word;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 14px;
+    color:inherit;
+    opacity: .9;
+    line-height: 1.2;
+    font-weight: 500;
+}
+legend{
+    color: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #171a29;
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    top: -13px;
+    left: -6px;
+}
+.offer-text{
+    padding: 20px 40px 25px 25px;
+}
+.searchfunc{
+   
+    /* top: 10px;
+    z-index: 2; */
+    /* position: relative; */
+    
+}

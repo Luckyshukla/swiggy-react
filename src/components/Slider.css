@@ -1,0 +1,108 @@
+.container {
+    display: inline-block;
+    background-color: #171a29;
+    /* z-index: -1; */
+    width: 100%;
+  }
+  
+  .carousel {
+    background: #171a29;
+    padding-top: 20px;
+    width: 85%;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    left: 8%;
+    transition: transform 0.5s;
+  }
+  
+  .slider {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: all 0.5s;
+  }
+  
+  .slider img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    margin: 20px 30px;
+  }
+  
+  .slider h2 {
+    padding-left: 65px;
+    width: 260px;
+  
+    position: absolute;
+    top: 200px;
+    color: white;
+  }
+  
+  /* h2 { 
+    position: absolute; 
+    top: 200px; 
+    left: 30px; 
+    width: 100%; 
+  } */
+  /* .text{
+  
+   } */
+  /* .slider p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   } */
+  .controls button.next {
+    position: absolute;
+    right: 6%;
+    top: 225px;
+    background-color: rgb(224, 211, 211);
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+  
+  .controls button.prev {
+    position: absolute;
+    left: 7%;
+    top: 225px;
+    background-color: rgb(239, 232, 232);
+    border-radius: 55%;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    color: black;
+  
+  }
+  
+  .controls button.prev i:hover {
+    position: relative;
+    right: 5px;
+  }
+  
+  .controls button.next i:hover {
+    position: relative;
+    left: 3px;
+  }
+  
+  .controls button i {
+    font-size: 38px;
+    padding: 5px;
+    transition: ease 0.5ms;
+  }
+  
+  
+  
+  div.slider img:hover {
+    cursor: pointer;
+    transform: scale(105%, 105%);
+    /* transition: ease-in 0.3ms; */
+  }
